@@ -1,4 +1,4 @@
-# What Grows API 🍊 🍋 🍒 🍇 🍉 🍓 🍑 🍈 🍌 🍐 🍍 🍠 🍆 🍅 🌽
+# What Grows API 🍊 🍋 🍠 🍅 🌽
 
 Get suggestions of what vegetables grow and the recommended soil humidity given your location!
 

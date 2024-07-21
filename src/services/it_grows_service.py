@@ -11,8 +11,9 @@ class ItGrowsService:
 
     prompt = """Return to me a list of objects in json with 5 items (only the json list, nothing more), 
       with suggestions of what are the best vegetables to grow given my location: latitude %s and longitude %s and the date %s. 
-      Each object of the list must contain the property soil_humidity with the recommended percentage soil humidity and 
-      the property name with the value of the name of the vegetable.""" % (dto.latitude, dto.longitude, now)
+      Each object of the list must contain the property soil_humidity with the recommended percentage soil humidity, 
+      the property name with the value of the name of the vegetable and 
+      a the property description with a simple explanation of why the soil humidity percentage to the vegetable.""" % (dto.latitude, dto.longitude, now)
     
     output = self.openai_repository.what_grows(prompt)
     output_json_str = output.choices[0].text

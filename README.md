@@ -66,4 +66,12 @@ Run the following command at the root of the project:
 ```
 fastapi dev main.py
 ```
+
+You can also with docker compose. Make sure you have docker and docker compose installed.
+Run the following command in the root directory:
+
+```
+    docker-compose up --build
+```
+
 ### You can access the endpoint by the URL http://localhost:8000
